@@ -6,7 +6,6 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// Route: /gethello
 app.get("/gethello", (req, res) => {
     res.send("Hello NodeJS!!");
 });
