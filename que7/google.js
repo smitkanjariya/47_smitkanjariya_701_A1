@@ -10,7 +10,7 @@ async function fetchGoogleHomePage() {
         console.log("✅ Fetched Google homepage HTML:");
         console.log(html.substring(0, 500)); // Show only first 500 characters
     } catch (error) {
-        console.error("❌ Error fetching Google homepage:", error.message);
+        console.error("Error fetching Google homepage:", error.message);
     }
 }
 
